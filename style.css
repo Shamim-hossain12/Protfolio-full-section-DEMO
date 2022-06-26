@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 4600px;
+    /* background-color: red; */
+}
+
+.header {
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.top-header {
+    height: 25%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.menuber {
+    float: right;
+    margin-right: 30px;
+    padding: 20px;
+    word-spacing: 30px;
+    padding-top: 100px;
+}
+
+.menuber a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: 30px;
+    padding: 10px;
+}
+
+.menuber :hover {
+    color: red;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bottom-header {
+    height: 75%;
+    width: 100%;
+}
+
+.bottom-h-image {
+    height: 85%;
+    width: 70%;
+    margin: auto;
+}
+
+.bottom-h-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-h-text {
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+
+.main {
+    height: 3700px;
+    width: 100%;
+    /* background-color: teal; */
+}
+
+.main-header {
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.main-header h1 {
+    text-decoration: underline;
+    font-style: italic;
+    color: orange;
+    text-transform: capitalize;
+}
+
+.main-header span {
+    text-transform: capitalize;
+    color: grey;
+}
+
+.about-main {
+    width: 100%;
+    height: 900px;
+    /* background-color: aqua; */
+}
+
+.about-main-top-text {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #fff;
+    background-position: 0%;
+    margin-top: 30px;
+}
+
+.main-image-one {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 5px 3px black;
+}
+
+.main-image-one:hover {
+    border: 2px solid blue;
+    box-shadow: 0px 0px 8px 4px blue;
+}
+
+.main-image-one b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-one img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-two {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 8px 3px black;
+}
+
+.main-image-two:hover {
+    box-shadow: 0px 0px 12px 8px teal;
+}
+
+.main-image-two b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-two img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-three {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 8px 3px black;
+}
+
+.main-image-three:hover {
+    box-shadow: 0px 0px 12px 8px green;
+}
+
+.main-image-three b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-three img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-four {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: -8px -8px 8px 3px black;
+}
+
+.main-image-four:hover {
+    box-shadow: 0px 0px 12px 8px hotpink;
+}
+
+.main-image-four b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-four img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-five {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 8px 3px black;
+}
+
+.main-image-five:hover {
+    box-shadow: 0px 0px 12px 8px orange;
+}
+
+.main-image-five b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-five img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-six {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 8px 3px black;
+}
+
+.main-image-six:hover {
+    box-shadow: 0px 0px 12px 8px red;
+}
+
+.main-image-six b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-six img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-seven {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 8px 3px black;
+}
+
+.main-image-seven:hover {
+    box-shadow: 0px 0px 12px 8px skyblue;
+}
+
+.main-image-seven b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-seven img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-image-eight {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 8px 3px black;
+}
+
+.main-image-eight:hover {
+    box-shadow: 0px 0px 12px 8px brown;
+}
+
+.main-image-eight b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-image-eight img {
+    height: 200px;
+    width: 100%;
+}
+
+.main-middle-section {
+    height: 1200px;
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+.main-middle-section-text {
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-middle-section-text h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: hotpink;
+}
+
+.main-middle-section-text b {
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.main-middle-image {
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    /* background-color: blue; */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-position: 0%;
+    flex-wrap: wrap;
+}
+
+.middle-image-one {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-one:hover {
+    box-shadow: 0px 0px 10px 10px navy;
+}
+
+.middle-image-one div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-one div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-two {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-two:hover {
+    box-shadow: 0px 0px 10px 10px skyblue;
+}
+
+.middle-image-two div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-two div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-three {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-three:hover {
+    box-shadow: 0px 0px 10px 10px olive;
+}
+
+.middle-image-three div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-three div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-four {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-four:hover {
+    box-shadow: 0px 0px 10px 10px purple;
+}
+
+.middle-image-four div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-four div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-five {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-five:hover {
+    box-shadow: 0px 0px 10px 10px mediumseagreen;
+}
+
+.middle-image-five div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-five div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-six {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-six:hover {
+    box-shadow: 0px 0px 10px 10px peachpuff;
+}
+
+.middle-image-six div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-six div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-seven {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-seven:hover {
+    box-shadow: 0px 0px 10px 10px coral;
+}
+
+.middle-image-seven div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-seven div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.middle-image-eight {
+    width: 200px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 0px black;
+    margin: 30px;
+}
+
+.middle-image-eight:hover {
+    box-shadow: 0px 0px 10px 10px cyan;
+}
+
+.middle-image-eight div img {
+    width: 100%;
+    height: 70%;
+}
+
+.middle-image-eight div b {
+    color: red;
+    text-transform: capitalize;
+}
+
+.main-about-text {
+    width: 90%;
+    height: 800px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 150px;
+    /* display: flex; */
+}
+
+.top-about-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: rgba(8, 8, 8, 0.205);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.text2 {
+    padding-top: 30px;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.main-contact-section {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.contact-section {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding-top: 30px;
+    margin: auto;
+}
+
+.contact-section-one {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contact-section-one b {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-section-one ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contact-section-two {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contact-section-two b {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-section-two ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contact-section-three {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.contact-section-three b {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-section-three ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.contact-section-four {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.contact-section-four b {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-section-four ul {
+    font-size: 60px;
+}
+
+.fotter {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.about-fotter {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotter-text {
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.information {
+    color: #fff;
+    font-size: 50px;
+}
+
+.information b {
+    text-transform: capitalize;
+}
